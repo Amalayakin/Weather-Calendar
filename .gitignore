@@ -78,6 +78,11 @@ web_modules/
 .env.test.local
 .env.production.local
 .env.local
+.env
+token.json
+credentials.json
+pendingEvent.json
+
 
 # parcel-bundler cache (https://parceljs.org/)
 .cache
