@@ -1,4 +1,21 @@
 # Weather-Calendar
-A web app that integrates WeatherAPI with Google Calendar. It checks the weather forecast and lets users add events to their Google Calendar based on rain predictions. This helps users plan better by aligning schedules with upcoming weather conditions.
+This web app integrates WeatherAPI with Google Calendar to help users plan their schedule around rain forecasts. It checks the next day's weather, and if rain is predicted, it adds an alert to the user's Google Calendar.
 
+🔧 Key Components:
+WeatherAPI: Fetches forecast data.
+
+Google Calendar API: Adds rain alert events.
+
+OAuth 2.0: Ensures secure user authentication and calendar access.
+
+Express.js & EJS: Builds the server and dynamic UI.
+
+Session Handling: Stores pending rain alerts if the user is not authenticated.
+
+💡 Highlights:
+Notifies users about possible rain.
+
+Automatically creates calendar events post-auth.
+
+Uses Node.js, Axios, Google APIs, and fs module for backend processing.
 for real-demo ... I attached the demo video. check out for how the web app work flow.
